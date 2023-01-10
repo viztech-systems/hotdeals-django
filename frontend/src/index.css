@@ -1,0 +1,397 @@
+body {
+  background-color: #EDEDED !important;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.selector-for-some-widget {
+    box-sizing: border-box;
+  }
+
+  .navbar-nav{
+    margin-left: auto;
+  } 
+  .deals-bar{
+    padding: 0px !important;
+  }
+
+  /* ---------------------------- list view card css starts here ------------------------------*/
+ .list-card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+  height: 200px;
+  width: 75%;
+}
+ .list-card-body{
+  height: 100%;
+  padding: 0px;
+}
+.list-card-title{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  max-height: 30px; /* line-height * 3 */
+  overflow: hidden;
+}
+.list-card-text{
+  font-size: 14px;
+  line-height: 25px;
+  max-height: 50px; /* line-height * 3 */
+  overflow: hidden;
+}
+.degree-icons{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list-rating-size{
+  font-size: 25px;
+}
+.list-deal-button{
+  font-size: 16px;
+  font-weight: bold;
+}
+  /* ---------------------------- list view card css ends here ------------------------------*/
+
+
+  /* ---------------------------- grid view card css starts here ------------------------------*/
+
+.grid-card-title{
+  font-size: 16px;
+  line-height: 23px;
+  max-height: 47px; /* line-height * 3 */
+  overflow: hidden;
+}
+.grid-card-text{
+  font-size: 14px;
+  line-height: 20px;
+  max-height: 80px; /* line-height * 3 */
+  overflow: hidden;
+}
+  /* ---------------------------- Grid view card css ends here ------------------------------*/
+
+/* -------------------------------login form css starts here ------------------------------------ */
+
+ .login-form {
+  width: 340px;
+  margin: 30px auto;
+  font-size: 15px;
+}
+.login-form form {
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.login-form h2 {
+  margin: 0 0 15px;
+}
+.login-form .hint-text {
+  color: #777;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 13px; 
+}
+.form-control, .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.login-btn {        
+  font-size: 15px;
+  font-weight: bold;
+}
+.or-seperator {
+  margin: 20px 0 10px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.or-seperator i {
+  padding: 0 10px;
+  background: #f7f7f7;
+  position: relative;
+  top: -11px;
+  z-index: 1;
+}
+.social-btn .btn {
+  margin: 10px 0;
+  font-size: 15px;
+  text-align: left; 
+  line-height: 24px;       
+}
+.social-btn .btn i {
+  float: left;
+  margin: 4px 15px  0 5px;
+  min-width: 15px;
+}
+.input-group-addon .fa{
+  font-size: 18px;
+}
+/* -------------------------------login form css ends here ------------------------------------ */
+
+/* -------------------------------signup form css starts here ------------------------------------ */
+
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: black;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  font-size: 15px;
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: white;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+} 
+/* -------------------------------login form css ends here ------------------------------------ */
+
+/* -------------------------------deal form css starts here ------------------------------------ */
+
+.deal_submit_form{
+  background-color: white;
+}
+.category_name{
+  display: inline-flex;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding: 3px 5px;
+}
+/* -------------------------------deal form css ends here ------------------------------------ */
+
+/* -------------------------------user Home page css starts here ------------------------------------ */
+
+
+/* -------------------------------user Home page css ends here ------------------------------------ */
+
+
+input[type="radio"] {
+  display: none;
+}
+
+.star{
+  cursor: pointer;
+  transition: color 200ms;
+}
+.dealDetails-rating-size{
+  font-size: 45px;
+}
+.dealDetails-deal-button{
+  font-size: 22px;
+}
+
+
+/* -------------------------------Footer css starts here ------------------------------------ */
+
+footer {
+  position:relative;
+  bottom:0;
+  width:100%;
+}
+.footer_container{
+   background-color: white;
+   color: white;
+   font-weight: 700;
+ }
+ .footer_container .footer_menu li .nav-link{
+  color: white !important;
+  font-weight: 200;
+  text-decoration: underline;
+ }
+ .footer_container .tagline, .footer_container .newsletter, .footer_container .copyright{
+   color: white;
+  font-weight: 100;
+ }
+ .footer_content{
+   padding-bottom: 0px !important;
+ }
+ .footer_container .footer_copyright{
+   margin-bottom: 0px !important;
+ }
+.warning{
+  color: red;
+}
+/* -------------------------------Footer css starts here ------------------------------------ */
+
+@media screen and (max-width: 991px) {
+  .list-card{
+    width: 95% ;
+  }
+  .menus{
+    border-bottom:5px solid transparent
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .usermenu{
+    font-size: 12px;
+  }
+  .hot-btn{
+    max-width: 80px;
+    justify-content: start !important;
+  }
+  .new-btn{
+    max-width: 80px;
+    justify-content: start !important;
+  }
+  .category-btn{
+    justify-content: end !important;
+  }
+  .view-btn{
+    display: none !important;
+  }
+  .search-bar{
+    margin-bottom: 5px;
+  }
+}
+
+ @media screen and (max-width: 480px) {
+   .mail{
+     font-size: 12px !important;
+   }
+  .view-btn{
+    display: none !important;
+  }
+  .list-card{
+    width: 100%;
+    height: 150px !important;
+  }
+  .list-card-title{
+      font-size: 11px;
+      line-height: 20px;
+      max-height: 40px; 
+      overflow: hidden;
+  }
+  .list-card-text{
+  display: none;
+  }
+  .list-rating-size{
+    font-size: 17px;
+  }
+  /* .degree-icons > span{
+      font-size: 15px;
+  } */
+  .list-deal-button{
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .dealDetails-card-text{
+    font-size: 14px;
+  }
+  .dealDetails-rating-size{
+    font-size: 35px;
+  }
+  .dealDetails-deal-button{
+    font-size: 18px;
+  }
+  .cust-name{
+    font-size: 18px;
+  }
+  .cust-review-date{
+    font-size: 14px;
+  }
+  .cust-review{
+    font-size: 14px;
+  }
+  .usermenu{
+    font-size: 10px;
+  }
+  .footer_columns{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_columns div{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .footer_copyright{
+    align-items: center;
+  }
+ 
+ }
+ 

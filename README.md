@@ -1,1 +1,0 @@
-# hotdeals-django
